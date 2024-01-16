@@ -125,6 +125,7 @@ span {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .bx-search {
@@ -190,6 +191,7 @@ option {
     font-weight: 800;
     line-height: normal;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .choose {
@@ -230,7 +232,7 @@ option {
     gap: 24px;
 }
 
-.why-choose-us .card1 {
+.why-choose-us  {
     margin: 0 ;
 }
 
@@ -241,6 +243,9 @@ option {
     width: 573px;
     height: 284px;
     padding: 32px;
+}
+.card1 {
+    margin-left: 50%;
 }
 
 .card h4 {
@@ -290,6 +295,101 @@ option {
     width: 610px;
     height: 424px;
 }
+
+.deals-banner {
+    border-radius: 16px;
+    background: url(Images/Group\ 39.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 90px 100px 55px 535px;
+    margin-top: 24px;
+}
+
+.deals-banner1 {
+    border-radius: 16px;
+    background: url(Images/Group\ 40.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 90px 535px 55px 100px;
+    margin-top: 24px;
+}
+
+.deals-descount{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals {
+    text-align: center;
+}
+
+.deals-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 52px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item .bx {
+    color: #FF5400;
+}
+
+.tour {
+    padding-left: 50px;
+}
+
+.tour-title {
+    margin-top: 26px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.toure-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: 16px;
+}
+
+.price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+
 
 .news {
     display: flex;
@@ -350,6 +450,37 @@ option {
 
 .newsletter p {
     margin-bottom: 48px;
+}
+
+.news-img {
+    margin-left: 135px;
+}
+
+.img-tag {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
+.img-tag p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.img-tag h4 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
 }
 
 footer {
@@ -472,6 +603,9 @@ hr {
         height: 100%;
         padding: 24px;
     }
+    .card1 {
+        margin-left: 1%;
+    }
     .srilanka img {
         width: 100%;
     }
@@ -501,9 +635,28 @@ hr {
         width: 100%;
         height: 100%;
     }
+
+    .deals-banner {
+        width: 335px;
+        height: 500px;
+        padding: 16px;
+        margin-bottom: 187px;
+    }
+    .deals-banner1 {
+        width: 335px;
+        height: 500px;
+        padding: 10px;
+    }
+
+    .deals-descount {
+        width: 310px;
+    }
     .news-img img {
         width: 100%;
         margin-top: 16px;
+    }
+    .news-img {
+        margin-left: 0;
     }
     .newsletter input {
         border: none;
@@ -517,9 +670,9 @@ hr {
         width: 300px;
         height: 353px;
     }
-    /* footer {
-        width: 100%;
-    } */
+    .img-tag {
+        margin-left: 30px;
+    }
     .footer {
         padding: 50px;
     }

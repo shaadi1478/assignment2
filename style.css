@@ -230,6 +230,10 @@ option {
     gap: 24px;
 }
 
+.why-choose-us .card1 {
+    margin: 0 ;
+}
+
 .card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -239,7 +243,6 @@ option {
     padding: 32px;
 }
 
-
 .card h4 {
     margin-top: 32px;
 }
@@ -247,6 +250,112 @@ option {
 .card p {
     margin-top: 10px;
     width: 271px;
+}
+
+.simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-title {
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.simple-description {
+    width: 524px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.ull {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; 
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+
+.simple-video video {
+    padding: 42px;
+    width: 610px;
+    height: 424px;
+}
+
+.news {
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter {
+    padding: 0 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 400px;
+    height: 422px;
+}
+
+.newsletter h4 {
+    margin-top: 40px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter p {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+}
+
+.newsletter input {
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    width: 393px;
+    height: 52px;
+}
+
+.newsletter input::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+}
+
+.newsletter input[type="submit"] {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.newsletter h4 {
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-bottom: 48px;
+}
+
+footer {
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
 }
 
 @media screen and (max-width: 600px) {
@@ -258,7 +367,9 @@ option {
     .our-popular,
     .maldives,
     .srilanka,
-    .bangla
+    .bangla,
+    .simple,
+    .news
     {
         flex-direction: column;
     }
@@ -308,19 +419,60 @@ option {
         height: 100%;
         align-items: flex-start;
     }
-    .maldives, .srilanka, .bangla {
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+
     .why-choose-us {
         grid-template-columns: 1fr;
+        gap: 70px;
 
     }
-    .card {
-        width: 335px;
-        height: 289px;
-        margin: 0;
+    .why-choose-us .card {
+        width: 90%;
+        height: 100%;
+        padding: 24px;
+    }
+    .srilanka img {
+        width: 100%;
+    }
+    .maldives img {
+        width: 100%;
+    }
+    .bangla img{
+        width: 100%;
+    }
+    .simple-perfect {
+        text-align: left;
+        width: 450px;
+    }
+    .simple-title {
+        width: 300px;
+        font-size: 30px;
+    }
+    .simple-description {
+        font-size: 20px;
+        width: 450px;
+    }
+    .simple-perfect .primary-btn {
+        margin-left: 0px;
+    }
+    .simple-video video {
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .news-img img {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .newsletter input {
+        border: none;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        margin-bottom: 16px;
+        width: 288px;
+        height: 52px;
+    }
+    .newsletter {
+        width: 300px;
+        height: 353px;
     }
 }
